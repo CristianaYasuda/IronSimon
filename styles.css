@@ -1,0 +1,107 @@
+
+
+body{
+    background-color: #142004;
+}
+
+.container{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   clear: both;
+   margin-top: 0.5%;
+}
+
+.container1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 25%;
+    clear: both;
+}
+
+#green{
+    width: 160px;
+    height: 185px;
+    background-image: url(./img/button1.jpg);
+    background-position: 250px 920px;
+    opacity: 1;
+    border-radius: 90%;
+}
+
+.container3{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    height: 25%;
+    clear: both;
+
+}
+
+.container3 > div{
+    width: 33.3%;
+    margin: 10px;
+    text-align: center;
+
+}
+
+#red{
+    width: 160px;
+    height: 185px;
+    background-image: url(./img/button1.jpg);
+    background-position: 250px 580px;
+    opacity: 1;
+    border-radius: 90%;
+}
+
+#yellow{
+    width: 160px;
+    height: 185px;
+    background-image: url(./img/button1.jpg);
+    background-position: 530px 920px;
+    opacity: 1;
+    border-radius: 90%;
+}
+
+#logo img{
+    width: 65%;
+}
+
+#blue{
+    width: 160px;
+    height: 185px;
+    background-image: url(./img/button1.jpg);
+    background-position: 540px 580px;
+    opacity: 1;
+    border-radius: 90%;
+}
+
+.container4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clear: both;
+}
+
+.container4 > button{
+    margin: 0.5%;
+}
+
+#turn{
+    height: 5%;
+    color: white;
+}
+
+.container5{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 25%;
+    clear: both;
+ }
+
+
+
+
