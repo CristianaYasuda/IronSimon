@@ -23,7 +23,6 @@ start.addEventListener('click', function(e) {
   start.classList.toggle('btn-outline-warning')
   start.classList.toggle('btn-warning')
   play();
-  gameRound();
 });
 
 resetButton.addEventListener('click', function(e) {
